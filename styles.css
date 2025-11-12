@@ -1,0 +1,64 @@
+:root { 
+    --actionred: #BD102B;
+    --black: #000000;
+    --darkgrey: #474747; 
+    --lightgrey: #9c9c9c;
+}
+
+*{box-sizing: border-box;}
+
+@font-face {
+  font-family: 'Skranji';
+  src: url('fonts/Skranji/Skranji-Regular.ttf'); }
+html {font-family: Skranji, serif; overflow: auto;}
+body{font-size: 16px;}
+body {background-color: var(--darkgrey);}
+body{font-size: 2.68vw;}
+p{margin: 0; font-size: .5rem;}
+img{margin: 0;}
+
+header {background-color: var(--actionred); height: min-content; max-width: 100%; margin: 0; padding: 0;}
+header img {margin: auto; max-width: 100%; width: 100%; height: auto; object-fit: cover; }
+#navbar{ background-color: var(--black); height:auto; margin: 0; padding-top: 1vw; padding-bottom: 2vw;}
+#navbar ul {padding: 0; margin: 0; padding-left: 1.5vw;}
+#navbar ul li {margin-top: 1vw; padding: 0;}
+#navbar ul li a {text-align: center; padding: .5vw; text-decoration: none;}
+#navbar ul li a:hover { background-color: var(--darkgrey);}
+
+
+
+
+
+a:link{color: var(--actionred);}
+a:visited{color: var(--actionred);}
+a:active{color: white;}
+
+/*section>div{border: 1px orange solid;}
+.container>span{border: 1px pink solid;}*/
+section{border: 1px blue dashed;}
+
+section {margin: auto; margin-top: 4vw; margin-bottom: 8vw; width: 100%; max-width: 100%; }
+section div {margin: auto; max-width: 100%; width: 70%; background-color: var(--lightgrey); padding: 5px;}
+div h3 { text-align: center; font-size: 3vw; margin-top:0; margin-bottom: 0;}
+div p{font-size: 2.5vw; text-align: center; text-wrap: pretty;}
+div > video {width: 100%; height:auto; margin-bottom: 2px;}
+
+
+.container{margin: auto; width: 95%; height: 57.5vw; background-color: var(--lightgrey);  padding-top: 4vw; margin-bottom: 15vw;}
+.container img{max-width: 100%; width: 42%; height: auto; position: absolute; left: 4.5vw; margin-bottom: 2vw; margin-top: 1vw;}
+.container p{max-width: 100%; position: absolute; font-size: 2.3vw; line-height: 2.9vw;}
+.container .part1{width:47%; left: 49vw; position: absolute; margin-top:0; margin-bottom: 2vw; text-wrap: balance;}
+.part2{margin: auto; width: 92%; margin-top: 32.5vw; margin-left: 3vw; }
+
+
+#group div{width: 80%;}
+#group>div>img{max-width: 100%; width: 100%; height: auto; margin-bottom: 3px;}
+.member{margin: auto; width: 60%; max-width: 100%; background-color: var(--lightgrey); margin-top: 4vw;}
+.member img{width: 50%; height: auto; max-width: 100%; }
+.member h3{position: absolute;}
+
+
+
+
+
+footer{position: fixed; background-color:var(--black); max-width: 100%; width: 100vw; height: 10vw; bottom: 0;}
