@@ -16,6 +16,7 @@ body {background-color: var(--darkgrey);}
 body{font-size: 2.68vw;}
 p{margin: 0; font-size: .5rem;}
 img{margin: 0;}
+h2{margin-left:4vw; font-size: 4vw;}
 
 header {background-color: var(--actionred); height: min-content; max-width: 100%; margin: 0; padding: 0;}
 header img {margin: auto; max-width: 100%; width: 100%; height: auto; object-fit: cover; }
@@ -36,26 +37,37 @@ a:active{color: white;}
 /*section>div{border: 1px orange solid;}
 .container>span{border: 1px pink solid;}*/
 section{border: 1px blue dashed;}
+img{border: 10px orange solid}
 
 section {margin: auto; margin-top: 4vw; margin-bottom: 8vw; width: 100%; max-width: 100%; }
-section div {margin: auto; max-width: 100%; width: 70%; background-color: var(--lightgrey); padding: 5px;}
+section div {margin: auto; max-width: 100%; width: 70%; /*background-color: var(--lightgrey);*/ padding: 5px;}
+#spacer{height: 7vw;}
 div h3 { text-align: center; font-size: 3vw; margin-top:0; margin-bottom: 0;}
 div p{font-size: 2.5vw; text-align: center; text-wrap: pretty;}
 div > video {width: 100%; height:auto; margin-bottom: 2px;}
 
 
-.container{margin: auto; width: 95%; height: 57.5vw; background-color: var(--lightgrey);  padding-top: 4vw; margin-bottom: 15vw;}
+.container{margin: auto; width: 95%; height: 57.5vw; background-color: var(--lightgrey);  padding-top: 4vw; margin-bottom: 8vw;}
 .container img{max-width: 100%; width: 42%; height: auto; position: absolute; left: 4.5vw; margin-bottom: 2vw; margin-top: 1vw;}
 .container p{max-width: 100%; position: absolute; font-size: 2.3vw; line-height: 2.9vw;}
 .container .part1{width:47%; left: 49vw; position: absolute; margin-top:0; margin-bottom: 2vw; text-wrap: balance;}
 .part2{margin: auto; width: 92%; margin-top: 32.5vw; margin-left: 3vw; }
 
 
-#group div{width: 80%;}
+#group div{width: 80%; padding: 10px; }
 #group>div>img{max-width: 100%; width: 100%; height: auto; margin-bottom: 3px;}
-.member{margin: auto; width: 60%; max-width: 100%; background-color: var(--lightgrey); margin-top: 4vw;}
-.member img{width: 50%; height: auto; max-width: 100%; }
-.member h3{position: absolute;}
+
+.member{margin: auto; width: 70%; height: 28.5vw; max-width: 100%; margin-bottom: 4vw;}
+.member img{width: 40%; height: auto; max-width: 100%; margin-left: 2.5vw;}
+.member>img{border: 1vw var(--lightgrey) solid; border-radius: 1vw;}
+.member div{position: relative; left: 33vw; bottom:30vw; max-width: 100%; width: 49%; padding: 0; margin: 0; padding-top: 3vw;}
+.member p{position: relative; }
+.member h3{text-align: left; color: var(--actionred); margin-bottom: 1.8vw; font-size: 4vw;}
+.member ul{margin: 0; padding: 0; padding-left: 4vw; padding-top: 2vw; padding-bottom: .5vw; font-size: 2.5vw; line-height: 2.9vw; background-color: var(--lightgrey); border-radius: 1vw; }
+.member>ul{border-color: var(--darkgrey) outset;}
+.member li{list-style: square;  padding: 0;  margin-bottom: 1vw; list-style-type: '★'; padding-inline-start: .5vw;}
+li::marker{}
+
 
 
 
