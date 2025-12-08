@@ -16,73 +16,65 @@ html {font-family: Skranji, serif; overflow: auto;}
 body{font-size: 16px;}
 body {background-color: var(--darkgrey);}
 body{font-size: 2.68vw;}
-p{margin: 0; font-size: .5rem;}
-img{margin: 0;}
+#spacer{height: 7vw;}
+section {margin: auto; margin-top: 4vw; margin-bottom: 8vw; width: 100%; max-width: 100%; }
+section div {margin: auto; max-width: 100%; width: 70%; padding: 5px;}
+p{margin: 0; font-size: 3vw;}
+img{margin: 0; border: 1vw var(--black) solid; border-radius: 1vw;}
 h2{margin-left:4vw; font-size: 4vw; letter-spacing: .2vw;}
-
-header {background-color: var(--actionred); height: min-content; max-width: 100%; margin: 0; padding: 0; margin-bottom: 8vw;}
-header img {margin: auto; max-width: 100%; width: 100%; height: auto; object-fit: cover; }
-#navbar{ background-color: var(--black); height:auto; margin: 0; padding-top: 2vw; padding-bottom: 2vw; max-width: 100%;}
-table{margin: auto; width: 95%; max-width: 100%; align-items: center; max-width: 100%;}
-table tbody{margin: auto; padding-left: 3vw; display: inline-block; max-width: 100%; width: 100%;}
-table tr{margin: auto; align-items: center; width: 100%; max-width: 100%;}
-table td{margin-left: 6vw; margin-right: 6vw; text-align: center; font-size: 4vw; display: inline-block;} 
-table td a{text-align: center; text-decoration: none; padding: 0;}
-table td a:hover{background-color: var(--darkgrey);}
-
-
 a:link{color: var(--actionred);}
 a:visited{color: var(--actionred);}
 a:active{color: var(--white);}
 
 
-section {margin: auto; margin-top: 4vw; margin-bottom: 8vw; width: 100%; max-width: 100%; }
-section div {margin: auto; max-width: 100%; width: 70%; padding: 5px;}
-#spacer{height: 7vw;}
-#video>div>video{border-radius: 1vw;}
+header {background-color: var(--actionred); height: min-content; max-width: 100%; margin: 0; padding: 0; margin-bottom: 8vw;}
+header img {margin: auto; max-width: 100%; width: 100%; height: auto; object-fit: cover; }
+
+#navbar{ background-color: var(--black); height:auto; margin: 0; padding-top: 2vw; padding-bottom: 2vw; max-width: 100%;}
+table{margin: auto; width: 95%; max-width: 100%; align-items: center;}
+table tbody{margin: auto; display: inline-block; max-width: 100%; width: 100%; padding-left: 3vw;}
+table tr{margin: auto; align-items: center; width: 100%; max-width: 100%;}
+table td{display: inline-block; margin-left: 6vw; margin-right: 6vw; text-align: center; font-size: 4vw;} 
+table td a{text-align: center; text-decoration: none; padding: 0;}
+table td a:hover{background-color: var(--darkgrey);}
+
+
+video{width: 100%; height:auto; margin-bottom: 2vw; border-radius: 1vw;}
 div h3 {text-align: center; font-size: 4vw; margin-top:0; margin-bottom: 0;}
 div p{font-size: 2.5vw; text-align: center; text-wrap: pretty;}
-div > video {width: 100%; height:auto; margin-bottom: 2vw;}
 
-.container{margin: auto; width: 95%; height: 95vw; background-color: var(--lightgrey); border-radius: 1vw; padding-top: 4vw; margin-bottom: 8vw;}
+
+.container{margin: auto; width: 95%; height: 95vw; padding-top: 4vw; margin-bottom: 8vw; background-color: var(--lightgrey); border-radius: 1vw;}
 .container img{max-width: 100%; width: 45%; height: auto; position: absolute; left: 4.5vw; margin-bottom: 2vw; margin-top: 0; border: .5vw var(--black) solid; border-radius: 1vw;}
 .container p{position: absolute; font-size: 3.2vw; line-height: 4.5vw;}
-.container .part1{width:45%; left: 51vw; position: absolute; margin-top:1.5vw; margin-bottom: 0; text-wrap: balance;}
-.part2{margin: auto; width: 92%; margin-top: 33vw; margin-left: 3vw; margin-bottom: 40vw;}
+.container .part1{width:45%; position: absolute; left: 51vw; margin-top:1.5vw; margin-bottom: 0; text-wrap: balance;}
+.part2{width: 92%; margin-top: 33vw; margin-left: 3vw; margin-bottom: 40vw;}
 
 
-#group{margin: 0; margin-bottom: 8vw; margin: auto;}
+#group{ margin: auto; margin-top: 0; margin-bottom: 8vw;}
 #group div{width: 90%; padding-bottom: 8vw;}
-#group>div>img{margin: auto; display: block; max-width: 100%; width: 85%; height: auto; margin-bottom: 3.5vw; border: 1vw var(--black) solid; border-radius: 1vw;}
-#group p{text-wrap: pretty; font-size: 3.8vw; line-height: 5vw;}
+#group img{display: block; max-width: 100%; width: 85%; height: auto; margin: auto; margin-bottom: 3.5vw; border: 1vw var(--black) solid; border-radius: 1vw;}
+#group p{font-size: 3.8vw; line-height: 5vw; text-wrap: pretty;}
 
-.member{margin: auto; width: 85%; height: 28.5vw; max-width: 100%; margin-bottom: 12vw;}
-.member img{width: 40%; height: auto; max-width: 100%; margin-left: 2.5vw;}
-.member>img{border: 1vw var(--lightgrey) solid; border-radius: 1vw;}
-.member div{position: relative; left: 40vw; bottom:40vw; max-width: 100%; width: 52%; padding: 0; margin: 0; padding-top: 3vw;}
-.member h3{text-align: left; color: var(--accentred); margin-bottom: 1.8vw; font-size: 6vw; display: inline-block; text-shadow: 2px 2px 7px var(--black)}
-.member ul{margin: 0; padding: 0; padding-left: 4vw; padding-top: 3vw; padding-bottom: 2vw; font-size: 4vw; line-height: 4.2vw; background-color: var(--lightgrey); border-radius: 1vw; }
-.member>ul{border-color: var(--darkgrey) outset;}
+.member{margin: auto; width: 85%; max-width: 100%;  height: 28.5vw; margin-bottom: 12vw;}
+.member img{width: 40%; height: auto; max-width: 100%; margin-left: 2.5vw; border: 1vw var(--lightgrey) solid;}
+.member div{position: relative;  max-width: 100%; width: 52%; padding: 0; margin: 0; padding-top: 3vw; left: 40vw; bottom:40vw;}
+.member h3{font-size: 6vw; text-align: left; margin-bottom: 1.8vw;  display: inline-block; color: var(--accentred); text-shadow: 2px 2px 7px var(--black)}
+.member ul{font-size: 4vw; line-height: 4.2vw; margin: 0; padding-right: 0; padding-left: 4vw; padding-top: 3vw; padding-bottom: 2vw; background-color: var(--lightgrey); border-radius: 1vw; }
 .member li{padding: 0; margin-left: 1vw;  margin-bottom: 1vw; list-style-type: '★';}
 
 
 .album{max-width: 100%; margin: auto; width: 95%; margin-bottom: 20vw; padding-left: 1.5vw; padding-right: 2vw; padding-top: 4vw;}
-.album img{margin: auto; margin-bottom: 4vw; display: block; max-width: 100%; width: 60%; height: auto; border: 1.5vw var(--black) solid; border-radius: 1vw;}
-
-.songs{width: 95%; padding-top: 2vw; background-color: var(--lightgrey); border: 1.5vw var(--black) solid; border-radius: 1.5vw}
-
-.title{width: max-content; position:static; margin-bottom: 4vw; padding: 0; width: 90%; max-width: 100%;}
+.album img{margin: auto; display: block; max-width: 100%; width: 60%; height: auto; margin-bottom: 4vw; border: 1vw var(--black) solid;}
+.text{margin-left: 4vw; font-size: 7vw; margin-bottom: 6vw;}
+.songs{width: 95%; padding-top: 2vw; background-color: var(--lightgrey); border: 1vw var(--black) solid; border-radius: 1.5vw}
+.title{margin-bottom: 2vw; padding: 0; width: 90%; max-width: 100%;}
 .title h3{font-size: 6vw; line-height: 7vw; margin-top: 2vw; margin-bottom: 2vw; text-decoration: underline;}
 .title p{font-size: 4.5vw;  line-height: 5.5vw; color: var(--accentred);}
-
-.songs ol{display: inline-block; font-size: 5vw; line-height: 7vw; width: max-content; position:static; padding-left: 10vw; width: 100%; max-width: 100%;} 
+.songs ol{width: max-content; max-width: 100%; display: inline-block; font-size: 5vw; line-height: 7vw; margin-top: 2vw; padding-left: 10vw;} 
 .songs a:link{color: var(--black);}
 .songs a:hover{background-color: var(--white);}
 .songs a:visited{color: var(--black);}
-
-
-h1{margin-left: 5px; font-size: 8vw;} 
-.text{margin-left: 4vw; font-size: 7vw; margin-bottom: 6vw;}
 
 
 
