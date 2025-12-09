@@ -17,7 +17,7 @@ body{font-size: 16px;}
 body {background-color: var(--darkgrey);}
 body{font-size: 2.68vw;}
 /*spacer*/
-#spacer{height: 15vw;}
+#spacer{height: 10vw;}
 section {margin: auto; margin-top: 4vw; margin-bottom: 8vw; width: 100%; max-width: 100%; }
 section div {margin: auto; max-width: 100%; width: 70%; padding: 5px;}
 p{margin: 0; font-size: 3vw;}
@@ -81,10 +81,11 @@ div p{font-size: 2.5vw; text-align: center; text-wrap: pretty;}
 
 
 /*footer*/
-footer{background-color:var(--black);}
-.footer{position: fixed; height: 10vw;}
+footer{background-color:var(--black); width: 100%; max-width: 100%; overflow: hidden;}
+.footer{position: fixed; height: 10vw; max-width: 100%;}
+.footer2{width: 100%; max-width: 100%;}
 footer h3{color: var(--white); padding-top: 5vw; font-size: 4.5vw;}
-footer ul{display: inline-block;  width: 100%; max-width: 100%; margin: auto; padding: 0; }
+footer ul{display: inline-block;  width: 100%; max-width: 100%; margin: auto; padding: 0;}
 footer .row1{margin-left: 7vw; padding-top: 3vw;}
 footer .row2{margin-left: 32vw; padding-bottom: 3vw;}
 footer li{list-style-type: none; text-align: center; display: inline-block; padding: 1vw; line-height: 7vw; font-size: 3.5vw; color: var(--white);}
