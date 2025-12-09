@@ -81,7 +81,8 @@ div p{font-size: 2.5vw; text-align: center; text-wrap: pretty;}
 
 
 /*footer*/
-footer{position:absolute; background-color:var(--black); height: 100%;}
+footer{background-color:var(--black);}
+.footer{position: fixed; height: 10vw;}
 footer h3{color: var(--white); padding-top: 5vw; font-size: 4.5vw;}
 footer ul{display: inline-block;  width: 100%; max-width: 100%; margin: auto; padding: 0; }
 footer .row1{margin-left: 7vw; padding-top: 3vw;}
