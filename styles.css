@@ -16,17 +16,18 @@ html {font-family: Skranji, serif; overflow: auto;}
 body{font-size: 16px;}
 body {background-color: var(--darkgrey);}
 body{font-size: 2.68vw;}
-#spacer{height: 7vw;}
+/*spacer*/
+#spacer{height: 8vw;}
 section {margin: auto; margin-top: 4vw; margin-bottom: 8vw; width: 100%; max-width: 100%; }
 section div {margin: auto; max-width: 100%; width: 70%; padding: 5px;}
 p{margin: 0; font-size: 3vw;}
 img{margin: 0; border: 1vw var(--black) solid; border-radius: 1vw;}
-h2{margin-left:4vw; font-size: 4vw; letter-spacing: .2vw;}
+h2{margin-left:4vw; font-size: 5vw; letter-spacing: .2vw;}
 a:link{color: var(--actionred);}
 a:visited{color: var(--actionred);}
 a:active{color: var(--white);}
 
-
+/*header + navbar*/
 header {background-color: var(--actionred); height: min-content; max-width: 100%; margin: 0; padding: 0; margin-bottom: 8vw;}
 header img {margin: auto; max-width: 100%; width: 100%; height: auto; object-fit: cover; }
 
@@ -39,11 +40,11 @@ table td a{text-align: center; text-decoration: none; padding: 0;}
 table td a:hover{background-color: var(--darkgrey);}
 
 
+/*index/home*/
 video{width: 100%; height:auto; margin-bottom: 2vw; border-radius: 1vw;}
 div h3 {text-align: center; font-size: 4vw; margin-top:0; margin-bottom: 0;}
 div p{font-size: 2.5vw; text-align: center; text-wrap: pretty;}
-
-
+/*big text*/
 .container{margin: auto; width: 95%; height: 95vw; padding-top: 4vw; margin-bottom: 8vw; background-color: var(--lightgrey); border-radius: 1vw;}
 .container img{max-width: 100%; width: 45%; height: auto; position: absolute; left: 4.5vw; margin-bottom: 2vw; margin-top: 0; border: .5vw var(--black) solid; border-radius: 1vw;}
 .container p{position: absolute; font-size: 3.2vw; line-height: 4.5vw;}
@@ -51,11 +52,12 @@ div p{font-size: 2.5vw; text-align: center; text-wrap: pretty;}
 .part2{width: 92%; margin-top: 33vw; margin-left: 3vw; margin-bottom: 40vw;}
 
 
+/*about*/
 #group{ margin: auto; margin-top: 0; margin-bottom: 8vw;}
 #group div{width: 90%; padding-bottom: 8vw;}
 #group img{display: block; max-width: 100%; width: 85%; height: auto; margin: auto; margin-bottom: 3.5vw; border: 1vw var(--black) solid; border-radius: 1vw;}
 #group p{font-size: 3.8vw; line-height: 5vw; text-wrap: pretty;}
-
+/*member sections*/
 .member{margin: auto; width: 85%; max-width: 100%;  height: 28.5vw; margin-bottom: 12vw;}
 .member img{width: 40%; height: auto; max-width: 100%; margin-left: 2.5vw; border: 1vw var(--lightgrey) solid;}
 .member div{position: relative;  max-width: 100%; width: 52%; padding: 0; margin: 0; padding-top: 3vw; left: 40vw; bottom:40vw;}
@@ -64,6 +66,7 @@ div p{font-size: 2.5vw; text-align: center; text-wrap: pretty;}
 .member li{padding: 0; margin-left: 1vw;  margin-bottom: 1vw; list-style-type: '★';}
 
 
+/*discography*/
 .album{max-width: 100%; margin: auto; width: 95%; margin-bottom: 20vw; padding-left: 1.5vw; padding-right: 2vw; padding-top: 4vw;}
 .album img{margin: auto; display: block; max-width: 100%; width: 60%; height: auto; margin-bottom: 4vw; border: 1vw var(--black) solid;}
 .text{margin-left: 4vw; font-size: 7vw; margin-bottom: 6vw;}
@@ -77,5 +80,11 @@ div p{font-size: 2.5vw; text-align: center; text-wrap: pretty;}
 .songs a:visited{color: var(--black);}
 
 
-
-footer{position: fixed; background-color:var(--black); max-width: 100%; width: 100vw; height: 10vw; bottom: 0;}
+/*footer*/
+footer{background-color:var(--black); max-width: 100%; width: 100%; height: 17vh; bottom: 0;}
+footer h3{color: var(--white); padding-top: 5vw; font-size: 4.5vw;}
+footer ul{display: inline-block;  width: 100%; max-width: 100%; margin: auto; padding: 0; }
+footer .row1{margin-left: 7vw; padding-top: 3vw;}
+footer .row2{margin-left: 32vw;}
+footer li{list-style-type: none; text-align: center; display: inline-block; padding: 1vw; line-height: 7vw; font-size: 3.5vw; color: var(--white);}
+footer a:hover{background-color: var(--darkgrey);}
